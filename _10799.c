@@ -9,12 +9,12 @@ int main(void) {
         if(belt[i] == '(')
             top ++;
         else {
-            if(belt[i-1] == '(')
-                ans += top+1;
+            //if(belt[i-1] == '(')
+            ans += top+1;
             top--;
         }
-
     }
-    printf("%d\n",ans-1);
+
+    printf("%d\n",ans);
     return 0;
 }
