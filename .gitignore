@@ -1,2 +1,6 @@
 *.out
+<<<<<<< HEAD
 *.exe
+=======
+*.exe
+>>>>>>> refs/remotes/origin/main
